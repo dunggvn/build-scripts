@@ -1,5 +1,5 @@
 #remove the current manifests
-rm -rf device/lge/flashlmdd vendor/lge/flashlmdd device/lge/sm8150-common vendor/lge/sm8150-common kernel/lge/sm8150 hardware/lge
+rm -rf prebuilts/clang/host/linux-x86 device/lge/flashlmdd vendor/lge/flashlmdd device/lge/sm8150-common vendor/lge/sm8150-common kernel/lge/sm8150 hardware/lge
 
 #Syncing rom
 repo init -u https://github.com/DerpFest-LOS/android_manifest.git -b 15.2 --git-lfs
