@@ -21,5 +21,5 @@ git clone https://github.com/lge-qcom-dev/android_hardware_lge --depth 1 -b line
 
 #building command
 source build/envsetup.sh
-lunch flashlmdd-bp1a-user
+lunch lineage_flashlmdd-bp1a-user
 mka derp
