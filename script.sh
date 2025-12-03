@@ -1,5 +1,5 @@
 #remove the current manifests
-rm -rf .repo/local_manifests
+rm -rf prebuilts/clang/host/linux-x86 .repo/local_manifests
 
 #Syncing rom
 repo init -u https://github.com/DerpFest-LOS/android_manifest.git -b 15.2 --git-lfs
