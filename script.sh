@@ -12,5 +12,5 @@ git clone https://github.com/dunggvn/local_manifests --depth 1 -b lineage-22.2 .
 
 #building command
 source build/envsetup.sh
-lunch derp_flashlmdd-user
+lunch lineage_flashlmdd-bp1a-user
 mka derp
