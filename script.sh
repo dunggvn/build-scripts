@@ -18,14 +18,19 @@ echo "=====Syncing repo...====="
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync
 echo "=====Repo sync done====="
 
-#building command
+#Extras
+echo "=====Applying fixes...====="
+curl -o vendor/lineage/config/version.mk https://raw.githubusercontent.com/dunggvn/extra_fixes/refs/heads/main/version.mk
+echo "=====Fixes applied====="
+
+#Building command
 echo "=====Setting up build env====="
 source build/envsetup.sh
 echo "=====Build env done====="
 
 echo "=====Lunching...====="
 breakfast flashlmdd
-echo "=====Lunching Done====="
+echo "=====Lunch success====="
 
 echo "=====Start building ROM====="
 mka derp
