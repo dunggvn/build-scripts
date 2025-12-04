@@ -29,4 +29,4 @@ echo "=====Lunching Done====="
 
 echo "=====Start building ROM====="
 mka derp
-echo "=====ROM Builded successfully=====*
+echo "=====ROM Builded successfully====="
