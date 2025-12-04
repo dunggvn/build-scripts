@@ -20,6 +20,10 @@ echo "=====Repo sync done====="
 
 #Extras
 echo "=====Applying fixes...====="
+rm -rf hardware/qcom/sm8150/gps hardware/qcom/sm7250/gps hardware/qcom/sdm845/gps
+git clone https://android.googlesource.com/platform/hardware/qcom/sm8150/gps hardware/qcom/sm8150/gps
+git clone https://android.googlesource.com/platform/hardware/qcom/sm7250/gps hardware/qcom/sm7250/gps
+git clone https://android.googlesource.com/platform/hardware/qcom/sdm845/gps hardware/qcom/sdm845/gps
 curl -o vendor/lineage/config/version.mk https://raw.githubusercontent.com/dunggvn/extra_fixes/refs/heads/main/version.mk
 echo "=====Fixes applied====="
 
