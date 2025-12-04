@@ -24,7 +24,7 @@ source build/envsetup.sh
 echo "=====Build env done====="
 
 echo "=====Lunching...====="
-lunch lineage_flashlmdd-user
+breakfast flashlmdd
 echo "=====Lunching Done====="
 
 echo "=====Start building ROM====="
