@@ -15,7 +15,7 @@ echo "=====Local manifests cloned successfully====="
 
 #Crave resync script
 echo "=====Syncing repo...====="
-repo sync
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync
 echo "=====Repo sync done====="
 
 #building command
